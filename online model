@@ -1,28 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2021-05-03T16:56:05.523Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="8Vt6MjBVrGWzizUQRbh0" version="14.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-03T17:11:37.610Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="cf3KXAkVPq4imguwtCz0" version="14.6.9" type="github">
   <diagram id="gg30xhGNt_Q6YMF0SNub" name="Page-1">
     <mxGraphModel dx="1609" dy="586" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="mt6eCCepxaS4Eul9ec63-4" value="Online_Planner" style="shape=umlFrame;whiteSpace=wrap;html=1;width=110;height=30;" vertex="1" parent="1">
-          <mxGeometry x="-8" y="229" width="300" height="420" as="geometry" />
+          <mxGeometry x="-131" y="220" width="300" height="420" as="geometry" />
         </mxCell>
         <mxCell id="mt6eCCepxaS4Eul9ec63-5" value="Online_Executor" style="shape=umlFrame;whiteSpace=wrap;html=1;width=110;height=30;" vertex="1" parent="1">
           <mxGeometry x="520" y="220" width="300" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="mt6eCCepxaS4Eul9ec63-7" value="UCT Planner Server" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" vertex="1" parent="1">
-          <mxGeometry x="93" y="288" width="170" height="95" as="geometry" />
-        </mxCell>
-        <mxCell id="mt6eCCepxaS4Eul9ec63-8" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;Planner Action msg&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;+ Goals:&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;State Factors&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;State Numbers&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Update Tree(or run UCT)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;+ Result:&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Policy&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="317" y="263" width="180" height="142" as="geometry" />
+        <mxCell id="mt6eCCepxaS4Eul9ec63-8" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;Action msg&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span&gt;+ Goals:&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;State Factors&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;State Numbers&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Update Tree(or run UCT)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;-------------------------------------------------&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;+ Result:&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Policy&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="312" width="206" height="232" as="geometry" />
         </mxCell>
         <mxCell id="mt6eCCepxaS4Eul9ec63-9" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="mt6eCCepxaS4Eul9ec63-8">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mt6eCCepxaS4Eul9ec63-10" value="UCT Tree Update Server" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" vertex="1" parent="1">
-          <mxGeometry x="93" y="405" width="170" height="95" as="geometry" />
+        <mxCell id="mt6eCCepxaS4Eul9ec63-17" value="UCT Instance" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-17" y="527" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mt6eCCepxaS4Eul9ec63-18" value="Send Goal&lt;br&gt;Initial State" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;exitX=-0.005;exitY=0.377;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mt6eCCepxaS4Eul9ec63-21" target="mt6eCCepxaS4Eul9ec63-8">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="544" y="350.8558394160584" as="sourcePoint" />
+            <mxPoint x="342" y="471" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mt6eCCepxaS4Eul9ec63-20" value="Planner Server" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="53" y="302" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mt6eCCepxaS4Eul9ec63-21" value="Planner Client" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="561" y="302" width="143" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="mt6eCCepxaS4Eul9ec63-26" value="Receive Goal&lt;br&gt;Start Planning" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mt6eCCepxaS4Eul9ec63-8" target="mt6eCCepxaS4Eul9ec63-20">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="206" y="512" as="sourcePoint" />
+            <mxPoint x="342" y="457" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mt6eCCepxaS4Eul9ec63-27" value="Run UCT" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="-115" y="400" width="72" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mt6eCCepxaS4Eul9ec63-28" value="callback" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;" edge="1" target="mt6eCCepxaS4Eul9ec63-27" parent="1" source="mt6eCCepxaS4Eul9ec63-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-28" y="344" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mt6eCCepxaS4Eul9ec63-29" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;" edge="1" source="mt6eCCepxaS4Eul9ec63-27" parent="1" target="mt6eCCepxaS4Eul9ec63-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-42" y="408" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mt6eCCepxaS4Eul9ec63-36" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="mt6eCCepxaS4Eul9ec63-21" target="mt6eCCepxaS4Eul9ec63-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="279" y="468" as="sourcePoint" />
+            <mxPoint x="178" y="269" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="323" y="272" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mt6eCCepxaS4Eul9ec63-37" value="&lt;font color=&quot;#990000&quot;&gt;Preemption&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mt6eCCepxaS4Eul9ec63-36">
+          <mxGeometry x="0.1059" y="-4" relative="1" as="geometry">
+            <mxPoint x="12" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
