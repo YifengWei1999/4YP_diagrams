@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-03T17:58:11.758Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="CijLbGNvva9Qi9sTwpe7" version="14.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-03T18:01:58.115Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="YNv1Y9fhm7hNSMshTHgK" version="14.6.9" type="github">
   <diagram id="gg30xhGNt_Q6YMF0SNub" name="Page-1">
     <mxGraphModel dx="2118" dy="888" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,9 +25,10 @@
           <mxGeometry x="-70.5" y="553" width="110" height="61" as="geometry" />
         </mxCell>
         <mxCell id="mt6eCCepxaS4Eul9ec63-18" value="Send Goal&lt;br&gt;Initial State" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;exitX=-0.005;exitY=0.377;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mt6eCCepxaS4Eul9ec63-21" target="mt6eCCepxaS4Eul9ec63-8">
-          <mxGeometry width="60" relative="1" as="geometry">
+          <mxGeometry x="-0.1699" y="-15" width="60" relative="1" as="geometry">
             <mxPoint x="544" y="350.8558394160584" as="sourcePoint" />
             <mxPoint x="342" y="471" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mt6eCCepxaS4Eul9ec63-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="mt6eCCepxaS4Eul9ec63-20" target="mt6eCCepxaS4Eul9ec63-38">
@@ -121,8 +122,8 @@
         <mxCell id="mt6eCCepxaS4Eul9ec63-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="mt6eCCepxaS4Eul9ec63-60" target="mt6eCCepxaS4Eul9ec63-56">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="708" y="601" />
-              <mxPoint x="708" y="584" />
+              <mxPoint x="729" y="584" />
+              <mxPoint x="729" y="584" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -136,7 +137,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mt6eCCepxaS4Eul9ec63-63" value="&lt;font color=&quot;#00cccc&quot;&gt;Receive Goal&lt;br&gt;Update Tree to new State&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;exitX=0.005;exitY=0.559;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="mt6eCCepxaS4Eul9ec63-8" target="mt6eCCepxaS4Eul9ec63-54">
-          <mxGeometry x="0.5574" y="-1" width="60" relative="1" as="geometry">
+          <mxGeometry x="0.9693" y="-25" width="60" relative="1" as="geometry">
             <mxPoint x="370" y="450" as="sourcePoint" />
             <mxPoint x="430" y="450" as="targetPoint" />
             <mxPoint as="offset" />
@@ -162,13 +163,13 @@
           <mxGeometry x="877" y="252" width="123" height="18" as="geometry" />
         </mxCell>
         <mxCell id="mt6eCCepxaS4Eul9ec63-72" value="&lt;font color=&quot;#990000&quot;&gt;Commands&lt;br&gt;To Nodes&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="mt6eCCepxaS4Eul9ec63-57" target="mt6eCCepxaS4Eul9ec63-75">
-          <mxGeometry x="-0.2784" y="-18" width="60" relative="1" as="geometry">
+          <mxGeometry x="-0.2052" y="-40" width="60" relative="1" as="geometry">
             <mxPoint x="476" y="432" as="sourcePoint" />
             <mxPoint x="872" y="495" as="targetPoint" />
             <Array as="points">
               <mxPoint x="761" y="524" />
             </Array>
-            <mxPoint as="offset" />
+            <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mt6eCCepxaS4Eul9ec63-75" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;fillColor=#ffffff;" vertex="1" parent="1">
@@ -189,8 +190,8 @@
             <mxPoint x="621" y="395" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mt6eCCepxaS4Eul9ec63-84" value="&lt;font color=&quot;#00cccc&quot;&gt;Trigger&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="686" y="574.5" width="47" height="18" as="geometry" />
+        <mxCell id="mt6eCCepxaS4Eul9ec63-84" value="&lt;font color=&quot;#00cccc&quot;&gt;Trigger&lt;br&gt;Tree&lt;br&gt;Update&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="689" y="591" width="49" height="46" as="geometry" />
         </mxCell>
         <mxCell id="mt6eCCepxaS4Eul9ec63-89" value="" style="endArrow=classic;html=1;exitX=0.874;exitY=1.014;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="mt6eCCepxaS4Eul9ec63-75" target="mt6eCCepxaS4Eul9ec63-60">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -199,7 +200,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mt6eCCepxaS4Eul9ec63-88" value="&lt;font color=&quot;#00cccc&quot;&gt;Robot&lt;br&gt;Finishes&lt;br&gt;or Executed&amp;nbsp;&lt;br&gt;Command&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="767" y="482" width="77" height="60" as="geometry" />
+          <mxGeometry x="828" y="495" width="77" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mt6eCCepxaS4Eul9ec63-90" value="If Current Policy&amp;nbsp;&lt;br&gt;is &#39;Race&#39;&lt;br&gt;Trigger Planner" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;exitX=0.559;exitY=-0.167;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mt6eCCepxaS4Eul9ec63-76" target="mt6eCCepxaS4Eul9ec63-21">
           <mxGeometry x="-0.2116" y="48" width="60" relative="1" as="geometry">
@@ -212,8 +213,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mt6eCCepxaS4Eul9ec63-91" value="&lt;font color=&quot;#990000&quot;&gt;Robot Finishes&lt;br&gt;After Race&lt;br&gt;Trigger Preempt&lt;br&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;fillColor=#f8cecc;strokeColor=#b85450;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mt6eCCepxaS4Eul9ec63-75" target="mt6eCCepxaS4Eul9ec63-21">
-          <mxGeometry x="-0.0074" y="25" width="60" relative="1" as="geometry">
+        <mxCell id="mt6eCCepxaS4Eul9ec63-91" value="&lt;font color=&quot;#990000&quot;&gt;Robot Finishes&lt;br&gt;After Race&lt;br&gt;Trigger Preempt&lt;br&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;fillColor=#f8cecc;strokeColor=#b85450;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.86;entryY=0.889;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mt6eCCepxaS4Eul9ec63-75" target="mt6eCCepxaS4Eul9ec63-21">
+          <mxGeometry x="-0.1568" y="27" width="60" relative="1" as="geometry">
             <mxPoint x="622.3543368552314" y="411" as="sourcePoint" />
             <mxPoint x="611.3257322940376" y="474.1433259239834" as="targetPoint" />
             <mxPoint as="offset" />
