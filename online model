@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-03T18:01:58.115Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="YNv1Y9fhm7hNSMshTHgK" version="14.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-03T18:04:50.478Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="9O36slXhXs6epUijc8RK" version="14.6.9" type="github">
   <diagram id="gg30xhGNt_Q6YMF0SNub" name="Page-1">
     <mxGraphModel dx="2118" dy="888" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -153,10 +153,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mt6eCCepxaS4Eul9ec63-67" value="&lt;font style=&quot;font-size: 14px&quot;&gt;robot_0&lt;/font&gt;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mt6eCCepxaS4Eul9ec63-67" value="&lt;font style=&quot;font-size: 14px&quot;&gt;robot_0&lt;br&gt;Server&lt;br&gt;&lt;/font&gt;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="905" y="286" width="75" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="mt6eCCepxaS4Eul9ec63-68" value="&lt;font style=&quot;font-size: 14px&quot;&gt;robot_1&lt;/font&gt;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mt6eCCepxaS4Eul9ec63-68" value="&lt;font style=&quot;font-size: 14px&quot;&gt;robot_1&lt;br&gt;Server&lt;br&gt;&lt;/font&gt;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="905" y="375" width="75" height="75" as="geometry" />
         </mxCell>
         <mxCell id="mt6eCCepxaS4Eul9ec63-70" value="Robot Action Servers" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
