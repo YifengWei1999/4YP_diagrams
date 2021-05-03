@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2021-05-03T17:46:49.501Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="ssmH0dVB106JFjik5dXc" version="14.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-03T17:50:06.045Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="9Pg7RMDP-F1Du9KaenmP" version="14.6.9" type="github">
   <diagram id="gg30xhGNt_Q6YMF0SNub" name="Page-1">
-    <mxGraphModel dx="1609" dy="586" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2118" dy="888" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mt6eCCepxaS4Eul9ec63-4" value="Online_Planner" style="shape=umlFrame;whiteSpace=wrap;html=1;width=110;height=30;" vertex="1" parent="1">
+        <mxCell id="mt6eCCepxaS4Eul9ec63-4" value="Online_Planner" style="shape=umlFrame;whiteSpace=wrap;html=1;width=132;height=32;" vertex="1" parent="1">
           <mxGeometry x="-175.5" y="220" width="341" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="mt6eCCepxaS4Eul9ec63-5" value="Online_Executor" style="shape=umlFrame;whiteSpace=wrap;html=1;width=110;height=30;" vertex="1" parent="1">
-          <mxGeometry x="520" y="220" width="326" height="420" as="geometry" />
+        <mxCell id="mt6eCCepxaS4Eul9ec63-5" value="Online_Executor" style="shape=umlFrame;whiteSpace=wrap;html=1;width=114;height=36;" vertex="1" parent="1">
+          <mxGeometry x="520" y="220" width="340" height="420" as="geometry" />
         </mxCell>
         <mxCell id="mt6eCCepxaS4Eul9ec63-69" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="882" y="251" width="119" height="217" as="geometry" />
+          <mxGeometry x="881" y="247" width="119" height="217" as="geometry" />
         </mxCell>
         <mxCell id="mt6eCCepxaS4Eul9ec63-8" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;Action msg&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span&gt;+ Goals:&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;State Factors&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;State Numbers&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Update Tree(or run UCT)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;-------------------------------------------------&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;span&gt;+ Result:&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Policy&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
           <mxGeometry x="240" y="312" width="206" height="232" as="geometry" />
@@ -145,20 +145,20 @@
           <mxGeometry x="-38" y="560.5" width="66" height="46" as="geometry" />
         </mxCell>
         <mxCell id="mt6eCCepxaS4Eul9ec63-66" value="&lt;font color=&quot;#990000&quot;&gt;Execute Policy&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="mt6eCCepxaS4Eul9ec63-21" target="mt6eCCepxaS4Eul9ec63-57">
-          <mxGeometry x="0.2662" y="5" width="60" relative="1" as="geometry">
+          <mxGeometry x="0.47" y="-26" width="60" relative="1" as="geometry">
             <mxPoint x="456" y="496" as="sourcePoint" />
             <mxPoint x="571.5999999999999" y="375.36" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mt6eCCepxaS4Eul9ec63-67" value="&lt;font style=&quot;font-size: 14px&quot;&gt;robot_0&lt;/font&gt;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="906" y="290" width="75" height="75" as="geometry" />
+          <mxGeometry x="905" y="286" width="75" height="75" as="geometry" />
         </mxCell>
         <mxCell id="mt6eCCepxaS4Eul9ec63-68" value="&lt;font style=&quot;font-size: 14px&quot;&gt;robot_1&lt;/font&gt;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="906" y="379" width="75" height="75" as="geometry" />
+          <mxGeometry x="905" y="375" width="75" height="75" as="geometry" />
         </mxCell>
         <mxCell id="mt6eCCepxaS4Eul9ec63-70" value="Robot Action Servers" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="878" y="256" width="123" height="18" as="geometry" />
+          <mxGeometry x="877" y="252" width="123" height="18" as="geometry" />
         </mxCell>
         <mxCell id="mt6eCCepxaS4Eul9ec63-72" value="&lt;font color=&quot;#990000&quot;&gt;Commands&lt;br&gt;To Nodes&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="mt6eCCepxaS4Eul9ec63-57" target="mt6eCCepxaS4Eul9ec63-75">
           <mxGeometry x="-0.2784" y="-18" width="60" relative="1" as="geometry">
@@ -171,16 +171,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mt6eCCepxaS4Eul9ec63-75" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=0;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="712" y="251" width="119" height="217" as="geometry" />
+          <mxGeometry x="720" y="247" width="119" height="217" as="geometry" />
         </mxCell>
         <mxCell id="mt6eCCepxaS4Eul9ec63-76" value="Robot Action Clients" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="711" y="256" width="118" height="18" as="geometry" />
+          <mxGeometry x="719" y="252" width="118" height="18" as="geometry" />
         </mxCell>
         <mxCell id="mt6eCCepxaS4Eul9ec63-78" value="&lt;font style=&quot;font-size: 14px&quot;&gt;robot_0&lt;br&gt;Client&lt;br&gt;&lt;/font&gt;" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="726" y="292" width="91" height="73" as="geometry" />
+          <mxGeometry x="734" y="288" width="91" height="73" as="geometry" />
         </mxCell>
         <mxCell id="mt6eCCepxaS4Eul9ec63-80" value="&lt;font style=&quot;font-size: 14px&quot;&gt;robot_1&lt;br&gt;Client&lt;br&gt;&lt;/font&gt;" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="726" y="379" width="91" height="73" as="geometry" />
+          <mxGeometry x="734" y="375" width="91" height="73" as="geometry" />
         </mxCell>
         <mxCell id="mt6eCCepxaS4Eul9ec63-81" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1" source="mt6eCCepxaS4Eul9ec63-69" target="mt6eCCepxaS4Eul9ec63-75">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -208,6 +208,13 @@
               <mxPoint x="777" y="184" />
               <mxPoint x="671" y="184" />
             </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mt6eCCepxaS4Eul9ec63-91" value="&lt;font color=&quot;#990000&quot;&gt;Robot Finishes&lt;br&gt;After Race&lt;br&gt;Trigger Preempt&lt;br&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;fillColor=#f8cecc;strokeColor=#b85450;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mt6eCCepxaS4Eul9ec63-75" target="mt6eCCepxaS4Eul9ec63-21">
+          <mxGeometry x="-0.0074" y="25" width="60" relative="1" as="geometry">
+            <mxPoint x="622.3543368552314" y="411" as="sourcePoint" />
+            <mxPoint x="611.3257322940376" y="474.1433259239834" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
