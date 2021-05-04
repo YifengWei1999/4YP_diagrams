@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-04T19:55:55.092Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="8Z7l-_BdXBsxEvRafj4e" version="14.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-04T19:58:20.673Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="3JWGGY8EWJrQ7Jmib9lj" version="14.6.9" type="github">
   <diagram id="Qbtf3KbNa4ChQ7yU41iQ" name="Page-1">
     <mxGraphModel dx="1727" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -253,6 +253,18 @@
             <mxPoint x="1080" y="570" as="sourcePoint" />
             <mxPoint x="1130" y="520" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_59g2E4QaVUjZd17o-bY-110" value="&lt;font style=&quot;font-size: 25px&quot;&gt;Selection&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="354" y="120" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_59g2E4QaVUjZd17o-bY-111" value="&lt;font style=&quot;font-size: 25px&quot;&gt;Expansion&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="755" y="120" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_59g2E4QaVUjZd17o-bY-112" value="&lt;font style=&quot;font-size: 25px&quot;&gt;Simulation&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1165" y="120" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_59g2E4QaVUjZd17o-bY-113" value="&lt;font style=&quot;font-size: 25px&quot;&gt;Back Propagation&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1525" y="120" width="210" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
