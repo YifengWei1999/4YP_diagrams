@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-17T11:43:43.671Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="Mxg92IDLOpxFiFvI3QGs" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-17T11:44:45.127Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="_gv0mPCEn2o4XS2PLHZ_" version="14.6.13" type="github">
   <diagram id="VYlVkeTAuaCsyhofgKrP" name="Page-1">
     <mxGraphModel dx="1008" dy="536" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -90,6 +90,9 @@
         </mxCell>
         <mxCell id="mA_BSPlJ4o0QRFDZYxEd-4" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/android-128.png" vertex="1" parent="1">
           <mxGeometry x="968" y="194" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="mA_BSPlJ4o0QRFDZYxEd-5" value="&amp;gt;1 robot in node" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="938.5" y="135" width="97" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
